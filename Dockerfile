@@ -13,7 +13,7 @@ RUN ln -s /usr/bin/nodejs /usr/bin/node
 
 # install bower
 RUN npm install -g bower
-RUN npm install -g grunt
+RUN npm install -g grunt-cli
 RUN npm install -g gulp
 
 
