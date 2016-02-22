@@ -1,0 +1,8 @@
+{
+    "name": "test",
+    "version": "1.0",
+    "license": "MIT",
+    "dependencies": {
+        "jquery": "2.2.0"
+    }
+}
