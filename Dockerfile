@@ -1,10 +1,8 @@
-FROM debian:8
+FROM debian:8.3
 
 MAINTAINER Yannick PEREIRA-REIS <yannick.pereira.reis@gmail.com>
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV HOME /root
-ENV NODE_PATH /usr/local/lib/node_modules
 
 RUN apt-get update && apt-get install -y --force-yes --no-install-recommends \
   ca-certificates \
