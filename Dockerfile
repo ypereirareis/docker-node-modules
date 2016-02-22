@@ -18,12 +18,10 @@ RUN ln -s /usr/bin/nodejs /usr/bin/node
 
 RUN npm install -g \
   bower \
+  grunt \
   grunt-cli \
-  gulp-cli \
   gulp \
-  karma \
-  karma-cli \
-  webpack
+  gulp-cli
 
 
 VOLUME ["/app"]
