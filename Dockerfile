@@ -14,6 +14,7 @@ RUN apt-get update && apt-get install -y --force-yes --no-install-recommends \
 
 RUN ln -s /usr/bin/nodejs /usr/bin/node
 
+RUN npm install -g n && n stable
 RUN npm install -g \
   bower \
   grunt \
