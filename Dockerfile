@@ -20,8 +20,10 @@ RUN npm install -g \
   grunt \
   grunt-cli \
   gulp \
-  gulp-cli
-
+  gulp-cli \
+  karma \
+  karma-cli \
+  webpack
 
 VOLUME ["/app"]
 WORKDIR /app
