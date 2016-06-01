@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y --force-yes --no-install-recommends \
   curl \
   ssh \
   npm \
+  rsync \
   && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN ln -s /usr/bin/nodejs /usr/bin/node
